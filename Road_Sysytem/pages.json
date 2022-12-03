@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom",
+               "app-plus": {   
+					"titleView": false,
+					"bounce": "none"
+                },
+                "enablePullDownRefresh": false
+            }
+		}
+        ,{
+            "path" : "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+            
+        }
+        ,{
+            "path" : "pages/login/forget",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom",
+               "app-plus": {   
+					"titleView": false,
+					"bounce": "none"
+                },
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "道路裂缝检测系统后台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

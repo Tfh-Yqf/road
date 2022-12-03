@@ -1,0 +1,100 @@
+{
+	"pages": [
+		
+		{
+		    "path" : "pages/login/login",
+			"style" :
+			{
+			   "navigationStyle": "custom",
+			   "app-plus": {  //uni-app项目对应节点名称为"app-plus"
+				 "titleView": false
+				 },
+			   "enablePullDownRefresh": false
+			}
+		    
+		},
+		{
+			"path": "pages/index/index",
+			"style" :
+			{
+			   "navigationStyle": "custom",
+			   "app-plus": {  //uni-app项目对应节点名称为"app-plus"
+				 "titleView": false
+				 },
+			   "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/upload/upload",
+			"style" :
+			{
+			   "navigationStyle": "custom",
+			   "app-plus": {  //uni-app项目对应节点名称为"app-plus"
+				 "titleView": false
+				 },
+			   "enablePullDownRefresh": false
+			}
+		}
+		,{
+		    "path" : "pages/login/register",
+			"style" :
+			{
+			   "navigationStyle": "custom",
+			   "app-plus": {  //uni-app项目对应节点名称为"app-plus"
+				 "titleView": false
+				 },
+			   "enablePullDownRefresh": false
+			}
+		    
+		}
+		,{
+		    "path" : "pages/login/forget",
+			"style" :
+			{
+			   "navigationStyle": "custom",
+			   "app-plus": {  //uni-app项目对应节点名称为"app-plus"
+				 "titleView": false
+				 },
+			   "enablePullDownRefresh": false
+			}
+		    
+		}
+        ,{
+            "path" : "pages/HaveFinish/HaveFinish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "已完成",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/NotFinish/NotFinish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "未完成",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+			"style" :
+			{
+			   "navigationStyle": "custom",
+			   "app-plus": {  //uni-app项目对应节点名称为"app-plus"
+				 "titleView": false
+				 },
+			   "enablePullDownRefresh": false
+			}
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
