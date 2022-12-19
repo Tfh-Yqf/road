@@ -1,24 +1,11 @@
-# frontend
+# 道路裂纹检测系统
 
-## Project setup
-```
-yarn install
-```
+### www.road.tanfuhua.com 体验地址
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### 包括App前端、web前端、一部分后端
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### 接口文档在./web/interface.md
 
-### Lints and fixes files
-```
-yarn lint
-```
+### 检测算法尚未引用
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 联系方式直接留言 or 2813223276@qq.com
